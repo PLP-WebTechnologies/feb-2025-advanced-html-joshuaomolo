@@ -65,12 +65,22 @@
        <label for="password">Date of Birth</label>
       <input type="date" name="dob" placeholder="Date of Birth" required>
 
-      <select name="gender">
+      <select name="gender" required>
         <option value="">Select Gender</option>
         <option value="Male">Male</option>
         <option value="Female">Female</option>
         <option value="Prefer not to say">Prefer not to say</option>
       </select>
+
+      <label for="check">Check Gender</label><br>
+      <input type="radio" value="male" name="gender">
+      <label for="male">Male</label>
+
+      <input type="radio" value="Female" name="gender">
+      <label for="Female">Male</label>
+
+      <input type="radio" value="Prefer not to say" name="gender">
+      <label for="prefernot">Prefer not to say</label> <br>
 
        <label for="password">Password</label>
       <input type="password" name="password" placeholder="Enter Password" required>
