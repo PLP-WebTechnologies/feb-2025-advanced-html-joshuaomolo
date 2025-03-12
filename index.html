@@ -1,12 +1,14 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>Elements and Forms</title>
-    <meta charset="UTF-8">
+    <title>Elements and Forms</title> <!--Title-->
+    <meta charset="UTF-8"> <!--Encryption statndard-->
   </head>
 
   <body>
     <h1>East Africa Countries</h1>
+
+    <!--Ordered list in Roman Numbers-->
     <ol type="I">
       <li>Kenya</li>
       <li>Uganda</li>
@@ -15,9 +17,12 @@
       <li>S Sudan</li>
     </ol>
 
+    <!--External Image from Pexel-->
     <img src="https://images.pexels.com/photos/54514/pexels-photo-54514.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Pride of Kenya">
 
-    <table>
+    <!--Table having 5 Columns-->
+    <table border="1">
+      <!--Table Header-->
       <tr>
         <th>Name</th>
         <th>Address</th>
@@ -25,6 +30,7 @@
         <th>Email</th>
       </tr>
 
+       <!--Table Data-->
       <tr>
         <td>James</td>
         <td>123 Nairobi</td>
@@ -55,6 +61,7 @@
 
     </table>
 
+    <!--Form-->
     <form method="post">
       <label for="fname">Name</label>
       <input type="text" name="fname" placeholder="Enter Full Name" required>
@@ -62,9 +69,13 @@
        <label for="email">Email</label>
       <input type="email" name="email" placeholder="Enter Email" required>
 
-       <label for="password">Date of Birth</label>
-      <input type="date" name="dob" placeholder="Date of Birth" required>
+       <label for="password">Password</label>
+      <input type="password" name="password" placeholder="Enter Password" required>
 
+      <label for="dob">Date of Birth</label>
+      <input type="date" name="dob" placeholder="Enter Date of Birth" required>
+
+       <!--Dropdown-->
       <select name="gender" required>
         <option value="">Select Gender</option>
         <option value="Male">Male</option>
@@ -72,6 +83,7 @@
         <option value="Prefer not to say">Prefer not to say</option>
       </select>
 
+       <!--Radio Button-->
       <label for="check">Check Gender</label><br>
       <input type="radio" value="male" name="gender">
       <label for="male">Male</label>
@@ -82,9 +94,21 @@
       <input type="radio" value="Prefer not to say" name="gender">
       <label for="prefernot">Prefer not to say</label> <br>
 
+       <!--Checkbox-->
+       <label for="check">Check Gender</label><br>
+      <input type="checkbox" value="male" name="gender">
+      <label for="male">Male</label>
+
+      <input type="checkbox" value="Female" name="gender">
+      <label for="Female">Male</label>
+
+      <input type="checkbox" value="Prefer not to say" name="gender">
+      <label for="prefernot">Prefer not to say</label> <br>
+      
+
        <label for="password">Password</label>
       <input type="password" name="password" placeholder="Enter Password" required>
 
-      <input type="submit" value="SUBMIT" name="send">
+      <input type="submit" value="SUBMIT" name="send"> <!--Submit button-->
   </body>
 </html>
