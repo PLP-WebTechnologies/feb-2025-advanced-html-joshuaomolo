@@ -59,14 +59,21 @@
       <label for="fname">Name</label>
       <input type="text" name="fname" placeholder="Enter Full Name" required>
 
-      <label for="address">Address</label>
-      <textarea name="address" row="3">Address</textarea>
-
-       <label for="">Email</label>
+       <label for="email">Email</label>
       <input type="email" name="email" placeholder="Enter Email" required>
 
-       <label for="">Mobile Number</label>
-      <input type="tel" name="mobile" placeholder="Enter Contact" pattern="[0-9]{10}" required>
+       <label for="password">Date of Birth</label>
+      <input type="date" name="dob" placeholder="Date of Birth" required>
+
+      <select name="gender">
+        <option value="">Select Gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Prefer not to say">Prefer not to say</option>
+      </select>
+
+       <label for="password">Password</label>
+      <input type="password" name="password" placeholder="Enter Password" required>
 
       <input type="submit" value="SUBMIT" name="send">
   </body>
